@@ -6,7 +6,7 @@ A version control system is a kind of software that helps the developer team to 
 
 # git
 
-git is one of version control system that created by Linus Torvalds, which have top feature called distributed revision control is git storage not only in one storage. But everyone involved in the project will get the git database, which make it easier to manage bot offline and online.
+git is one of version control system that created by Linus Torvalds, which have top feature called distributed revision control is git storage not only in one storage. But everyone involved in the project will get the git database, which make it easier to manage both offline and online.
 
 ![](./media/git.jpg)
 
