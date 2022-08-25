@@ -19,8 +19,7 @@ An Operating System is the software which manages physical computing resources, 
 Virtualization is the process that enables teams to create a useful virtual or simulated version/instance of the software on a single server.
 The benefits of virtualization include: More agility, flexibility, and scalability during development.
 
-![](./media/virtualization.JPG){width="4.417283464566929in"
-height="4.177666229221347in"}
+![](./media/virtualization.JPG)
 
 # Making environment for server (CPU, Memory, Storage dan Network)
 
@@ -33,8 +32,7 @@ height="4.177666229221347in"}
 ### Download VMware
 [Download](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
 
-![](./media/vmware.jpg){width="4.417283464566929in"
-height="4.177666229221347in"}
+![](./media/vmware.JPG)
 
 ### Install VMware
 1. Open the VMware and then Create a new virtual machine
