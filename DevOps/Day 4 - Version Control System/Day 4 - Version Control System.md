@@ -1,236 +1,96 @@
 # Day 4
 
-# Definisi Git
+# Version Control System
 
-Menurut saya, git merupakan aplikasi yang digunakan untuk version
-control, project/code colaboration, dan management.
+A version control system is a kind of software that helps the developer team to efficiently communicate and manage(track) all the changes that have been made to the source code along with the information like who made and what changes have been made.
 
-# Contoh Perintah Git
+# git
 
-## git clone
+git is one of version control system that created by Linus Torvalds, which have top feature called distributed revision control is git storage not only in one storage. But everyone involved in the project will get the git database, which make it easier to manage bot offline and online.
 
-`Git clone` digunakan untuk mengcopy keseluruhan reposity ke repository
-local baru yang akan dibuat
+![](./media/git.jpg)
 
-![](./images/media/image1.png) 
+# Versioning using git
 
-## git log
+1. Setup git environment on Ubuntu
 
-menampilkan log/history commit dari repo
+Install git
+`sudo apt install git`
 
-![](./images/media/image2.png) 
+![](./media/1.png)
 
-## Git rm
+![](./media/2.png)
 
-`Git rm` digunakan untuk mengapus file dari repository lokal
+Config username, email, and SSH key
 
-![](./images/media/image3.png) 
+![](./media/3.png)
 
-## Git restore
+Make private/public key
+`ssh-keygen`
 
-`Git restore` digunakan untuk mengembalikan file yang sudah dihapus dengan
-command `git rm`
+![](./media/4.png)
 
-![](./images/media/image4.png) 
+Open generated file
+`cat ./.ssh/id_rsa.pub`
 
-# Menyiapkan environtment Git di Ubuntu
+![](./media/5.png)
 
-## Konfigurasi user, email, dan SSH Key
+Go to profile settings
 
-### Step 1
+![](./media/6.png)
 
-Pastikan git sudah terinstall dengan command:
+Choose SSH and GPG keys and enter the generated key
 
-`Git --version`
+![](./media/7.png)
 
-![](./images/media/image5.png)
+Test connection to Github
 
-### Step 2
+![](./media/8.png)
 
-Isikan username dan email github dengan command berikut
-
-![](./images/media/image6.png)
-
-### Step 3
-
-Buat private key dan public key dengan command berikut:
-
-`Ssh-keygen`
-
-![](./images/media/image7.png) 
-
-### Step 4
-
-Buka file `~/.ssh/id_rsa.pub` yang digenerate dari command `ssh-keygen`
-sebelumnya. Copy isinya lalu simpan untuk sementara
-
-![](./images/media/image8.png) 
-
-### Step 5
-
-Buka `github.com`, klik profil pada bagian kanan atas, lalu masuk ke menu
-settings
-
-![](./images/media/image9.png)
-
-### Step 6
-
-Pilih bagian SSH and GPG keys, lalu klik New SSH Key
-
-![](./images/media/image10.png) 
-
-### Step 7
-
-Masukkan public key yang dicopy sebelumya ke kotak Key. Jika sudah klik
-Add SSH Key
-
-![](./images/media/image11.png) 
-
-### Step 8
-
-Cek koneksi ke Github dengan command berikut
-
-`ssh -T git@github.com`
-
-![](./images/media/image12.png) 
-
-## Membuat dan Mengisi Repository+Branch dengan Aplikasi
-
-### Step 1
-
-Masuk ke folder yang akan di upload ke github
-
-![](./images/media/image13.png) 
-
-### Step 2
-
-Ketikkan command berikut. Command ini akan membuat folder `.git` di folder
-aplikasi
+2. Making repository
 
 `git init`
 
-![](./images/media/image14.png)
+The git init command is used to initialize a new git repository or reinitialize an existing one. The git init command transforms the current directory into a Git repository.It will also create a new master branch.
 
-### Step 3
+![](./media/10.png)
 
-Sebelum upload, kita harus memilih file yang ingin kita upload. Kita
-akan membuat file `.gitignore`. File ini berisi file atau direktori yang
-tidak akan di upload. Contoh, kita tidak akan mengupload direktori
-`node_modules`
+### Git Ignore
 
-`Touch .gitignore`
+.gitignore file is a text file that tells Git which files or folders to ignore in a project.
 
-`Echo "node_modules" > .gitignore`
+![](./media/11.png)
 
-![](./images/media/image15.png) 
+Adding file for committing
 
-### Step 4
+![](./media/12.png)
 
-Setelah itu, kita akan memilih file yang akan kita upload. Ini akan
-membuat file memasuki fase staged dimana file siap untuk di
-commit(ditulis ke repository)
+Creating repository
 
-`git add <file>`
+![](./media/13.png)
 
-![](./images/media/image16.png) 
+![](./media/14.png)
 
-Jalankan git status untuk mengecek apakah file sudah ditambahkan
-(ditandai dengan warna hijau)
+Copy SSH
 
-### Step 5 
+![](./media/15.png)
 
-Buka github, lalu buat repository baru dengan memilih New repository
-(Jika sudah membuat repo, skip ke step 7)
+Commit into local repository
 
-![](./images/media/image17.png) 
+![](./media/16.png)
 
-### Step 6
+![](./media/17.png)
 
-Isikan nama repo lalu klik create repository dibawah
+Push to sent file on local repository into github repository
 
-![](./images/media/image18.png) 
+![](./media/18.png)
 
-### Step 7
+![](./media/19.png)
 
-Pilih SSH, lalu copy baris berikut
+Create branch
 
-![](./images/media/image19.png)
+Branching offers a way to work on a new feature without affecting the main codebase. This feature is very important to DevOps.
 
-Jika sudah membuat repository, klik code lalu pilih berikut
+![](./media/20.png)
 
-![](./images/media/image19-2.png)
-
-### Step 8
-
-Buka terminal kembali, lalu isikan kode berikut
-
-`git remote add <remote-name> <url>`
-
-![](./images/media/image20.png) 
-
-Cek dengan command `git remote -v` untuk melihat daftar remote yang sudah
-terdaftar didalam repository lokal
-
-### Step 9
-
-Lakukan commit untuk menulis file kedalam repository lokal dengan
-command berikut
-
-`git commit -m "my first commit"`
-
-![](./images/media/image21.png) 
-
-### Step 10
-
-Lakukan push untuk mengirim file yang berada di repository lokal ke
-repository github.
-
-`git push <remote-name> <branch-name>`
-
-![](./images/media/image22.png)
-
-Isikan `<remote-name> ` dengan nama remote yang dibuat sebelumnya.
-`<branch-name> ` secara default jika tidak disebutkan saat `git init`, akan
-menggunakan `master`
-
-### Step 11
-
-Jika kita cek di github, maka file yang kita buat sudah muncul
-
-![](./images/media/image23.png)
-
-### Step 12
-
-Buat branch baru dengan command berikut
-
-`Git branch <branch-name>`
-
-![](./images/media/image24.png) 
-
-Lihat daftar branch yang sudah ada dengan command `git branch -a`
-
-### Step 13
-
-Saat ini kita masih di branch `master`. Untuk berpindah ke branch lain,
-gunakan command berikut
-
-`git checkout <branch-name>`
-
-![](./images/media/image25.png) 
-
-### Step 14
-
-Lalu kita akan push branch tersebut ke github. Gunakan command berikut
-
-`Git push <remote-name> <branch-name>`
-
-![](./images/media/image26.png) 
-
-### Step 15
-
-Kita cek di github. Akan muncul branch baru beserta isinya
-
-![](./images/media/image27.png) 
-
-![](./images/media/image28.png) 
-
+![](./media/21.png)

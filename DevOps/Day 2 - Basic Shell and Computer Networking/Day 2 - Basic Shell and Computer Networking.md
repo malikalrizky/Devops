@@ -22,41 +22,23 @@ Setup computer network is a way of System Administrator or DevOps Engineer to ch
 
 1.  
 
+```
 sudo nano /etc/netplan/00-installer-config.yaml
+```
 
 ![](./media/12.JPG)
 
 After that: sudo netplan apply
 
-2. 
+2. Install putty
 
-ping google.com
+![](./media/putty.JPG)
+
+3. Test connection 
+
+`ping google.com`
 
 ![](./media/13.png)
-
-3. 
-
-ssh (user)@(IP)
-
-![](./media/18.png)
-
-4. Install NGINX
-
-NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more. It started out as a web server designed for maximum performance and stability.
-
-To keep system up-to-date: sudo apt update && apt upgrade
-
-Install NGINX: sudo apt install nginx
-
-![](./media/14.png)
-
-Check NGINX status: sudo systemctl status nginx
-
-![](./media/15.png)
-
-Open browser and enter IP
-
-![](./media/26.png)
 
 # Localtunnel
 
@@ -68,7 +50,7 @@ Localtunnel is a simple tool that provides you a publicly-accessible URL that re
 
 1. Install node.js using nvm
 
-sudo apt install curl
+`sudo apt install curl`
 
 Note: curl is a command-line tool to transfer data to or from a server, using any of the supported protocols
 
@@ -87,25 +69,21 @@ NVM (Node Version Manager) is a command line tool that allows you to manage diff
 Note: npm is the package manager for Node.js
 
 ![](./media/31.png)
-4. Run NGINX
 
-![](./media/32.png)
+4. Run localtunnel
 
-5. Run localtunnel
-
-lt --port 80
+`lt --port 80`
 
 ![](./media/54.png)
 
 ![](./media/33.png)
 
-![](./media/34.png)
 
 ## Install Apache2
 
 1. 
 
-sudo apt install apache2
+`sudo apt install apache2`
 
 ![](./media/35.png)
 
@@ -113,13 +91,21 @@ sudo apt install apache2
 
 2. Allow firewall for Apache2
 
+`sudo ufw app list`
+
 ![](./media/37.png)
 
+`sudo ufw allow 'Apache'`
+
 ![](./media/38.png)
+
+`sudo ufw status`
 
 ![](./media/39.png)
 
 3. Enable Apache2
+
+`sudo systemctl enable apache2.service`
 
 ![](./media/42.png)
 
@@ -128,3 +114,7 @@ sudo apt install apache2
 ![](./media/43.png)
 
 5. Make tunnel to port 80 http apache
+
+![](./media/55.png)
+![](./media/56.png)
+![](./media/57.png)

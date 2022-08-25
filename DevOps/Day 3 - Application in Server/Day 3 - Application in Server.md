@@ -10,13 +10,17 @@ An application, also referred to as an application program or application softwa
 
 ![](./media/1.png)
 
-npm init -y
+`npm init -y`
 
 Command above used for initiate a Node.js project.
+
+![](./media/31.png)
 
 2. Install express JS
 
 Express is a node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application. It's a layer built on the top of the Node js that helps manage servers and routes.
+
+![](./media/30.png)
 
 3. Make the app
 
@@ -115,10 +119,14 @@ Install python package manager:
 
 Note: pip is the standard package manager for Python. It allows you to install and manage additional packages that are not part of the Python standard library.
 
+![](./media/27.png)
+
 Install flask
 `pip install flask`
 
 Note: Flask is a small and lightweight Python web framework that provides useful tools and features that make creating web applications in Python easier. It gives developers flexibility and is a more accessible framework for new developers since you can build a web application quickly using only a single Python file.
+
+![](./media/28.png)
 
 2. Make Python App
 
@@ -136,19 +144,54 @@ if __name__ == "__main__":
 
 3. Run the App
 
-python3 index.py
+`python3 index.py`
+
+![](./media/29.png)
 
 4. Test from localhost
 
 ![](./media/14.png)
 
-![](./media/15.png)
+# Apache2 configuration for public access with localtunnel
+
+1. Download and install pm2
+
+`npm install pm2 -g`
+
+![](./media/7.png)
+
+2. Start both apps using pm2
+
+`pm2 start my-app-nodejs/index.js`
+
+`pm2 start my-app-python3/index.py --interpreter python3`
+
+![](./media/32.png)
+
+3. Open from browser
+
+![](./media/33.png)
+
+4. Tunneling the app
+
+`lt -p 3000`
+
+`lt -p 5000`
+
+or
+
+`lt-manager --port 3000`
+
+`lt-manager --port 5000`
+
+![](./media/9.png)
+
+![](./media/10.png)
+
+![](./media/11.png)
+
 ![](./media/16.png)
+
 ![](./media/17.png)
 
 
-![](./media/7.png)
-![](./media/8.png)
-![](./media/9.png)
-![](./media/10.png)
-![](./media/11.png)
