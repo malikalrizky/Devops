@@ -84,7 +84,8 @@ export PATH=$PATH:/usr/local/go/bin
 
 `nano index.go`
 
-```package main
+```
+package main
 
 import "fmt"
 
