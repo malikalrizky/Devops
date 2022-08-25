@@ -27,7 +27,7 @@ The benefits of virtualization include: More agility, flexibility, and scalabili
 ### Download Ubuntu Server
 [Download](https://ubuntu.com/download/server)
 
-(./media/ubuntu.png)
+![](./media/ubuntu.png)
 
 ### Download VMware
 [Download](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
