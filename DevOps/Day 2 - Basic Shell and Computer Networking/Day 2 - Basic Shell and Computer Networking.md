@@ -28,7 +28,8 @@ sudo nano /etc/netplan/00-installer-config.yaml
 
 ![](./media/1.png)
 
-After that: sudo netplan apply
+After that: 
+`sudo netplan apply`
 
 2. Install putty
 
