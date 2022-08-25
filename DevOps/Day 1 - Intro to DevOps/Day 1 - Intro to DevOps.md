@@ -19,7 +19,8 @@ An Operating System is the software which manages physical computing resources, 
 Virtualization is the process that enables teams to create a useful virtual or simulated version/instance of the software on a single server.
 The benefits of virtualization include: More agility, flexibility, and scalability during development.
 
-![](./media/virtualization.jpg)
+![](./media/virtualization.JPG){width="4.417283464566929in"
+height="4.177666229221347in"}
 
 # Making environment for server (CPU, Memory, Storage dan Network)
 
