@@ -4,7 +4,7 @@
 
 ## 1. Fundamental DevOps
 
-DevOps is a culture that shifts the way that Development and Operations team members work together. DevOps culture aims to maintain trust, collaboration, problem resolution, and continuous improvement across the entire team.
+DevOps is a culture or method that shifts the way that Development and Operations team members work together. DevOps culture aims to maintain trust, collaboration, problem resolution, and continuous improvement across the entire team.
 
 ![](./media/devops.jpg)
 
