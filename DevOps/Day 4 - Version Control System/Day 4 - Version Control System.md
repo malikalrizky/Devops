@@ -47,7 +47,7 @@ Test connection to Github
 
 ![](./media/8.png)
 
-2. Making repository
+2. Making repository Github
 
 `git init`
 
