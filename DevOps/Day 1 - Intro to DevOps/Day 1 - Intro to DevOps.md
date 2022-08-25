@@ -33,7 +33,8 @@ height="4.177666229221347in"}
 ### Download VMware
 [Download](https://www.vmware.com/products/workstation-player/workstation-player-evaluation.html)
 
-![](./media/vmware.jpg)
+![](./media/vmware.jpg){width="4.417283464566929in"
+height="4.177666229221347in"}
 
 ### Install VMware
 1. Open the VMware and then Create a new virtual machine
