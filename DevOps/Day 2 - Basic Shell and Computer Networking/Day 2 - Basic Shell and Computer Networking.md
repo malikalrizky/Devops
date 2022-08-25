@@ -26,7 +26,7 @@ Setup computer network is a way of System Administrator or DevOps Engineer to ch
 sudo nano /etc/netplan/00-installer-config.yaml
 ```
 
-![](./media/12.JPG)
+![](./media/12.png)
 
 After that: sudo netplan apply
 
