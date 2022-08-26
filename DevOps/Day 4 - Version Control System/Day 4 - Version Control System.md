@@ -85,11 +85,11 @@ Push to sent file on local repository into github repository
 
 ![](./media/18.png)
 
-![](./media/19.png)
-
 Create branch
 
 Branching offers a way to work on a new feature without affecting the main codebase. This feature is very important to DevOps.
+
+![](./media/19.png)
 
 ![](./media/20.png)
 
