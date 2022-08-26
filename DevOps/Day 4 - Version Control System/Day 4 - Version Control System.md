@@ -77,9 +77,9 @@ Copy SSH
 
 Commit into local repository
 
-![](./media/16.png)
-
 ![](./media/17.png)
+
+![](./media/16.png)
 
 Push to sent file on local repository into github repository
 
