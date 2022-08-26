@@ -179,11 +179,6 @@ if __name__ == "__main__":
 
 `lt -p 5000`
 
-or
-
-`lt-manager --port 3000`
-
-`lt-manager --port 5000`
 
 ![](./media/9.png)
 
