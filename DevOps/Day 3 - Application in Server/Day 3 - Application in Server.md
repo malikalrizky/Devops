@@ -180,8 +180,8 @@ if __name__ == "__main__":
 `lt -p 5000`
 
 
-![](./media/9.png)
+![](./media/34.png)
 
-![](./media/10.png)
+![](./media/35.png)
 
-![](./media/11.png)
+![](./media/36.png)
