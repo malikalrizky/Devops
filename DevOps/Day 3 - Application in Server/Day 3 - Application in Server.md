@@ -185,9 +185,3 @@ if __name__ == "__main__":
 ![](./media/10.png)
 
 ![](./media/11.png)
-
-![](./media/16.png)
-
-![](./media/17.png)
-
-
