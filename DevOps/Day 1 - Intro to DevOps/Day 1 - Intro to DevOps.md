@@ -8,6 +8,8 @@ DevOps is a culture or method that shifts the way that Development and Operation
 
 ![](./media/devops.jpg)
 
+![](./media/2.JPG)
+
 ## 2. Operating System Concept
 
 An Operating System is the software which manages physical computing resources, interfaces between the hardware and the applications on a computer.
