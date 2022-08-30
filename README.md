@@ -7,9 +7,9 @@
 
 [Task 4](https://github.com/malikalrizky/Task-Bootcampdw/blob/main/DevOps/Day%204%20-%20Version%20Control%20System/Day%204%20-%20Version%20Control%20System.md)
 
-[Task 5](https://github.dev/malikalrizky/Task-Bootcampdw/blob/main/DevOps/Day%205%20-%20CI%20CD%20with%20Cloudflare%20Pages)
+[Task 5](https://github.com/malikalrizky/Task-Bootcampdw/tree/main/DevOps/Day%205%20-%20CI%20CD%20with%20Cloudflare%20Pages)
 
-[Task 6](https://github.dev/malikalrizky/Task-Bootcampdw/blob/main/DevOps/Day%206%20-%20Manage%20Server%20with%20Terminal)
+[Task 6](https://github.com/malikalrizky/Task-Bootcampdw/blob/main/DevOps/Day%206%20-%20Manage%20Server%20with%20Terminal)
 
-[Task 7](https://github.dev/malikalrizky/Task-Bootcampdw/blob/main/DevOps/Day%207%20-%20Web%20Server%20and%20Load%20Balancing)
+[Task 7](https://github.com/malikalrizky/Task-Bootcampdw/blob/main/DevOps/Day%207%20-%20Web%20Server%20and%20Load%20Balancing)
 
