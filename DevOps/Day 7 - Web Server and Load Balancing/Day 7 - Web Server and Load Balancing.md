@@ -88,7 +88,7 @@ Start app
 
 ![](./media/20.png)
 
-![](./media/21.png)
+![](./media/27.png)
 
 ### 6. Create Load Balancing Config
 
@@ -105,18 +105,18 @@ server {
     server_name domain.com; 
     
     location / { 
-             proxy_pass http://(ip):(port);
+             proxy_pass http://domain;
     }
 }
 ```
 
 ![](./media/22.png)
 
-![](./media/23.png)
+![](./media/28.png)
 
 One of the server died
 
-![](./media/21.png)
+![](./media/27.png)
 
 Both server died
 
