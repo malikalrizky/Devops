@@ -32,6 +32,8 @@ Try connection
 
 Reverse proxy is a type of proxy server that typically sits behind the firewall in a private network and directs client requests to the appropriate backend server. A reverse proxy provides an additional level of abstraction and control to ensure the smooth flow of network traffic between clients and servers.
 
+![](./media/rp.png)
+
 ```
 server { 
     server_name domain.com; 
@@ -91,6 +93,8 @@ Start app
 ### 6. Create Load Balancing Config
 
 Load Balancing is a technique used to distribute workloads uniformly across servers or other compute resources to optimize network efficiency, reliability and capacity.
+
+![](./media/lb.png)
 
 ```
 upstream domain { 
