@@ -4,7 +4,7 @@
 
 A web server is a computer software and underlying hardware (processor and memory) that provides data-based services and to receive requests from client via HTTP or its secure variant HTTPS or usually called by web browser. Later, web server can send response on request in form of web page.
 
-## Running Reverse Proxy and Load Balancing on web
+## Running Reverse Proxy and Load Balancing on Web Server
 
 ### 1. Setup Environment
 
