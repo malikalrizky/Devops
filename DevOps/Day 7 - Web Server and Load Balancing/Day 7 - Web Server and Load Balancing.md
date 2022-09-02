@@ -50,8 +50,6 @@ server {
 
 ![](./media/26.png)
 
-![](./media/14.png)
-
 ### 3. Edit nginx config
 
 ![](./media/10.png)
