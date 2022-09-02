@@ -119,3 +119,25 @@ One of the server died
 Both server died
 
 ![](./media/24.png)
+
+### 7. Install PM2 on Web Server
+
+PM2 used so that the app can run in background without remote the server.
+
+```
+sudo npm install pm2@latest -g
+```
+
+![](./media/29.png)
+
+```
+pm2 start npm --name "name" -- start
+```
+
+![](./media/30.png)
+
+Try exit the remote server
+
+![](./media/31.png)
+
+![](./media/27.png)
