@@ -102,7 +102,7 @@ sudo ufw allow 80
 sudo ufw allow 443
 ```
 
-![](./media/5.png)
+![](./media/12.png)
 
 Add permission with command
 
